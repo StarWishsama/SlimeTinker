@@ -1,31 +1,32 @@
 ![](https://github.com/Sefiraat/SlimeTinker/blob/master/images/logo/logo_large.png?raw=true)
 
-SlimeTinker is a Slimefun4 addon that tries its best to recreate the amazing Tinker's Construct Mod ([link](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)) in Vanilla Minecraft.
+SlimeTinker 是一个 Slimefun4 的附属插件, 旨在充分还原 匠魂 (Tinker's Construct) ([链接](https://www.curseforge.com/minecraft/mc-mods/tinkers-construct)) 模组的体验.
 
-## Features include:
-* The ability to melt all Vanilla and Core Slimefun metals and alloys. 
-* Casting out metals into nuggets, ingots and blocks for all metals. Cast into tools parts (Axe Heads, Sword Blades etc.)
-* Creation of custom tools based on any combination of Head, Binding and Rod parts for a unique tool
-* Each Part/metal combination has a specific property. Properties range from Auto smelting to Levitation, invisibility to 3x3 mining.
-* Tools level as you use them, as they level they unlock new Modifier slots and can promote from Stone > Gold > Iron > Diamond and Netherite.
-* Modifier slots can be used to add special modifiers to the tool from bonus drops (on top of looting/fortune) to more haste, damage and more.
-* Tools do not break, they just stop working until you repair them using the same metal type the tool is made of
-* Parts can be swapped out at will leaving the tool level/mods intact. Want to start with Copper to level faster and then swap to Reinforced for 3x3? Go for it!
-* All effects/mods (when applicable) work with Vanilla Enchants. Damage, exp and durability modifications are all stackable and work nicely with each other.
+## 功能包括:
+* 能够冶炼出所有原版和 Slimefun4 中的金属和合金. 
+* 能够将金属冶炼成粒, 锭和块, 并且铸造成工具部件 (例如斧头, 剑刃等)
+* 基于任意部件的组合合成独一无二的工具
+* 每一个部件都有其独特的特性. 例如自动烧炼, 飘浮, 隐身, 再到 3x3 自动开采.
+* 在你使用工具时, 当它们升级时会解锁新的强化槽, 并且可以按照 石 > 环境 > 铁 > 钻石 > 下界合金 的顺序升级
+* 强化槽可以给工具添加新的特殊词条, 包括多倍掉落 (抢夺/时运), 急迫, 伤害翻倍等.
+* 工具都不会损坏, 在耐久不足后可以用与其相同类型的金属修复它们.
+* 工具中的部件可以随意切换, 并且完整保留其等级和词条.
+* 所有适用的效果和词条都能和原版附魔一起使用, 伤害, 经验值和耐久度都能附加上去.
 
-## Planned Features include:
-* Addition of molten metal types from Infinity Expansion, SimpleStorage, LiteXpansion and more
-* Armour pieces
+## 已规划的新特性包括:
+* 支持 Infinity Expansion, SimpleStorage, LiteXpansion 以及更多附属插件的金属
+* 盔甲
 
-## Suggestions?
-SlimeTinker has a LOT of traits/effects, and I simply do not have enough ideas to flesh out all of it. So I really would welcome any and all suggestions in the Slimefun Addon Community Discord (be sure to stick to the slimetinker channel!). If you have ideas, or just wanna chat about this addon or any of the addons made by the great members of the addon community, join the Slimefun Addon Community Discord. <br>
+## 建议
+SlimeTinker 有很多特性和效果, 我只是没有足够的想法来充实它. 所以我非常欢迎你在 Slimefun Addon Community Discord 频道反馈 (确保在 slimetinker 频道发言!). 
+如果你有关于这个插件的新想法, 只是想聊聊这个插件, 或是任何由附属社区制作的附属插件, 加入 Slimefun Addon Community Discord 频道<br>
 <p align="center">
   <a href="https://discord.gg/SqD3gg5SAU">
     <img src="https://discordapp.com/api/guilds/809178621424041997/widget.png?style=banner3" alt="Discord Invite"/>
   </a>
 </p>
 
-## Credits
-Big thanks to [Riley](https://github.com/Mooy1) for the great InfinityLib which sped things up greatly. Another big thanks to [Martin](https://github.com/martinbrom) who helped us out with ideas and direction. Thanks to [Boomer](https://www.youtube.com/channel/UC2ZmER18YBRYube-62-JVpA) for testing, feeding back and breaking things for me! 
+## 特别鸣谢
+非常感谢 [Riley](https://github.com/Mooy1) 提供的 InfinityLib 极大地提高了开发进程. 另外要感谢的是 [Martin](https://github.com/martinbrom) 帮助我们找到了许多点子和开发的方向. 感谢 [Boomer](https://www.youtube.com/channel/UC2ZmER18YBRYube-62-JVpA) 为我测试, 反馈! 
 
-Finaly a very big thanks to the mct.tantrum.org Minecraft server for fostering the initial ideas, testing and generally being awesome!
+最后, 非常感谢 mc.tantrum.org 这个 Minecraft 服务器, 促进了早期的开发想法和测试, 而且总体上这个服务器非常棒!
