@@ -55,7 +55,7 @@ public class SlimeTinker extends AbstractAddon {
 
         getLogger().info("########################################");
         getLogger().info("              Slime Tinker              ");
-        getLogger().info("           Created by Sefiraat          ");
+        getLogger().info("             由 Sefiraat 制作            ");
         getLogger().info("########################################");
 
         Categories.set(this);
@@ -93,7 +93,7 @@ public class SlimeTinker extends AbstractAddon {
 
     @Override
     protected @NotNull String getGithubPath() {
-        return "Sefiraat/SlimeTinker/master";
+        return "StarWishsama/SlimeTinker";
     }
 
 }

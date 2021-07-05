@@ -74,7 +74,7 @@ public final class DurabilityEvents {
         if (friend.getPlayer().getInventory().containsAtLeast(new ItemStack(Material.IRON_INGOT), 1)) {
             ItemUtils.repairTool(friend.getHeldItem(), 50);
             friend.getPlayer().getInventory().removeItem(i);
-            friend.getPlayer().sendMessage(ThemeUtils.SUCCESS + "Your tool was repaired with some iron you had lying around!");
+            friend.getPlayer().sendMessage(ThemeUtils.SUCCESS + "你的工具已被你手头上剩下的金属修复!");
         }
 
 //        Damageable d = (Damageable) friend.getHeldItem().getItemMeta();

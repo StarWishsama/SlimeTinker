@@ -58,16 +58,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "稳定性",
                                                 "Stability",
-                                                "Does... nothing!"
+                                                "什么... 也没有!"
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "锋利 1",
                                                 "Sharp 1",
-                                                "Gives increased damage, stacks with",
-                                                "mods and other properties."
+                                                "增强你的伤害, 可与其他改装部件和属性叠加."
                                         )
                                 )
                         ));
@@ -94,16 +95,18 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "黄金面罩",
                                                 "Golden Veil",
-                                                "Makes the player invisible. If used on",
-                                                "a weapon, -100% damage."
+                                                "使你获得隐身效果.",
+                                                "如果附加在武器上, 将会 -100% 的伤害."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "闪光的未必都是金子",
                                                 "All that Glitters",
-                                                "Makes you all shiny..."
+                                                "让你闪闪发光..."
                                         )
                                 )
                         ));
@@ -130,16 +133,18 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "头脑发达",
                                                 "Brains, Not Brawn",
-                                                "Tool exp gain is doubled. Damage",
-                                                "dealt is halved."
+                                                "工具获得的经验将会双倍掉落,",
+                                                "且伤害将会减半."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "经验传导",
                                                 "Conductive",
-                                                "All tool exp is converted to player exp."
+                                                "将工具获得的所有经验转换为玩家经验."
                                         )
                                 )
                         ));
@@ -166,15 +171,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "毒性",
                                                 "Poisonous",
-                                                "25% chance to afflict poison on hit."
+                                                "有 25% 的几率给予被击实体中毒效果."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "生命窃取",
                                                 "Leech",
-                                                "Bonus health, but drains your energy."
+                                                "获得双倍生命值, 但会消耗能量."
                                         )
                                 )
                         ));
@@ -201,17 +208,19 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "附魔",
                                                 "Enchanting",
-                                                "Tool exp gain is halved. Tools add a",
-                                                "random vanilla enchant when leveling. May or",
-                                                "may not match the tool type."
+                                                "工具获得的经验减半.",
+                                                "在升级时物品会获得一个随机的附魔.",
+                                                "有可能获得的附魔不兼容这个工具."
                                         ),
                                         null,
                                         new CMTrait(
                                                 SlimefunItems.SILVER_INGOT,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "轻柔之触",
                                                 "Soft Touch",
-                                                "You feel lighter."
+                                                "你感觉变轻了."
                                         )
                                 )
                         ));
@@ -238,15 +247,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "耐久回收",
                                                 "Recyclable",
-                                                "Chance to restore durability on hit/block break"
+                                                "有纪律在使用时恢复耐久度"
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "易碎品",
                                                 "Soft",
-                                                "Durability loss +100%, tool EXP +50%."
+                                                "耐久损失 +100%, 工具获得经验 +50%."
                                         )
                                 )
                         ));

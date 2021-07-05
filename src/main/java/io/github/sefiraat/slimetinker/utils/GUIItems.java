@@ -30,7 +30,7 @@ public final class GUIItems {
     public static CustomItem menuBackgroundInput() {
         return new CustomItem(
                 Material.LIGHT_BLUE_STAINED_GLASS_PANE,
-                ChatColor.BLUE + "Input",
+                ChatColor.BLUE + "输入",
                 " "
         );
     }
@@ -38,7 +38,7 @@ public final class GUIItems {
     public static CustomItem menuBackgroundOutput() {
         return new CustomItem(
                 Material.ORANGE_STAINED_GLASS_PANE,
-                ChatColor.RED + "Output",
+                ChatColor.RED + "输出",
                 " "
         );
     }
@@ -46,7 +46,7 @@ public final class GUIItems {
     public static CustomItem menuBackgroundCast() {
         return new CustomItem(
                 Material.LIME_STAINED_GLASS_PANE,
-                ChatColor.GREEN + "Cast/Die",
+                ChatColor.GREEN + "铸件/压模",
                 " "
         );
     }
@@ -54,7 +54,7 @@ public final class GUIItems {
     public static CustomItem menuPreview() {
         return new CustomItem(
                 Material.LIME_STAINED_GLASS_PANE,
-                ChatColor.GREEN + "Preview",
+                ChatColor.GREEN + "预览",
                 " "
         );
     }
@@ -62,7 +62,7 @@ public final class GUIItems {
     public static CustomItem menuBackgroundPreview() {
         return new CustomItem(
                 Material.LIME_STAINED_GLASS_PANE,
-                ChatColor.GREEN + "Preview",
+                ChatColor.GREEN + "预览",
                 " "
         );
     }
@@ -70,7 +70,7 @@ public final class GUIItems {
     public static CustomItem menuMarkerRod() {
         return new CustomItem(
                 Material.RED_STAINED_GLASS_PANE,
-                ChatColor.RED + "Rod Input",
+                ChatColor.RED + "手柄输入口",
                 " "
         );
     }
@@ -78,7 +78,7 @@ public final class GUIItems {
     public static CustomItem menuMarkerBinder() {
         return new CustomItem(
                 Material.RED_STAINED_GLASS_PANE,
-                ChatColor.RED + "Binder Input",
+                ChatColor.RED + "粘合剂输入口",
                 " "
         );
     }
@@ -86,7 +86,7 @@ public final class GUIItems {
     public static CustomItem menuMarkerHead() {
         return new CustomItem(
                 Material.RED_STAINED_GLASS_PANE,
-                ChatColor.RED + "Head/Blade Input",
+                ChatColor.RED + "头/剑刃输入口",
                 " "
         );
     }
@@ -107,9 +107,9 @@ public final class GUIItems {
             skull = SkullItem.fromBase64(SkullTextures.TANK_EMPTY);
         }
         List<String> meta = new ArrayList<>();
-        meta.add(ThemeUtils.GUI_HEAD + "Lava Tank");
+        meta.add(ThemeUtils.GUI_HEAD + "岩浆罐");
         meta.add("");
-        meta.add(ThemeUtils.CLICK_INFO + "Lava: " + ChatColor.WHITE + fillAmt + " / " + fillMax);
+        meta.add(ThemeUtils.CLICK_INFO + "岩浆总量: " + ChatColor.WHITE + fillAmt + " / " + fillMax);
         return new CustomItem(
                 skull,
                 meta
@@ -132,9 +132,9 @@ public final class GUIItems {
             skull = SkullItem.fromBase64(SkullTextures.TANK_EMPTY);
         }
         List<String> meta = new ArrayList<>();
-        meta.add(ThemeUtils.GUI_HEAD + "Metals Tank");
+        meta.add(ThemeUtils.GUI_HEAD + "金属罐");
         meta.add("");
-        meta.add(ThemeUtils.CLICK_INFO + "Total Metal: " + ChatColor.WHITE + fillAmt + " / " + fillMax);
+        meta.add(ThemeUtils.CLICK_INFO + "金属总量: " + ChatColor.WHITE + fillAmt + " / " + fillMax);
         meta.add("");
         if (map != null) {
             for (Map.Entry<String, Integer> e : map.entrySet()) {
@@ -142,13 +142,13 @@ public final class GUIItems {
                         CMManager.getById(e.getKey()).getColor() +
                         ThemeUtils.toTitleCase(e.getKey());
                 String amount = e.getValue().toString();
-                meta.add(ThemeUtils.CLICK_INFO + name + ": " + ChatColor.WHITE + amount + " units.");
+                meta.add(ThemeUtils.CLICK_INFO + name + ": " + ChatColor.WHITE + amount + " 个单元.");
             }
         }
         meta.add("");
-        meta.add(ThemeUtils.PASSIVE + "Metals pour out from the " + ChatColor.BOLD + "top" + ThemeUtils.PASSIVE + " first");
+        meta.add(ThemeUtils.PASSIVE + "金属会先从 " + ChatColor.BOLD + "顶端" + ThemeUtils.PASSIVE + " 溢出");
         meta.add("");
-        meta.add(ThemeUtils.CLICK_INFO + "Click to cycle metal order.");
+        meta.add(ThemeUtils.CLICK_INFO + "单击调整金属循环顺序.");
         return new CustomItem(
                 skull,
                 meta
@@ -158,42 +158,41 @@ public final class GUIItems {
     public static CustomItem menuPurge() {
         return new CustomItem(
                 SkullItem.fromBase64(SkullTextures.BUTTON_PURGE),
-                ThemeUtils.GUI_HEAD + "Purge Metals",
+                ThemeUtils.GUI_HEAD + "清除金属",
                 "",
-                ThemeUtils.PASSIVE + "Purge unwanted metals from the tank.",
+                ThemeUtils.PASSIVE + "清除储罐中不需要的金属P.",
                 "",
-                ThemeUtils.CLICK_INFO + "Left Click: " + ChatColor.WHITE + "Remove the TOP MOST metal",
-                ThemeUtils.CLICK_INFO + "Right Click: " + ChatColor.WHITE + "Remove ALL metals"
+                ThemeUtils.CLICK_INFO + "左键: " + ChatColor.WHITE + "清除顶层金属",
+                ThemeUtils.CLICK_INFO + "右键: " + ChatColor.WHITE + "清除所有金属"
         );
     }
 
     public static CustomItem menuAlloy() {
         return new CustomItem(
                 SkullItem.fromBase64(SkullTextures.BUTTON_ALLOY),
-                ThemeUtils.GUI_HEAD + "Alloy Metals",
+                ThemeUtils.GUI_HEAD + "合金金属",
                 "",
-                ThemeUtils.PASSIVE + "Mixes up the metals in the tank to",
-                ThemeUtils.PASSIVE + "try to create an alloy."
+                ThemeUtils.PASSIVE + "在储罐中混合不同的金属",
+                ThemeUtils.PASSIVE + "可以合成合金."
         );
     }
 
     public static CustomItem menuPour() {
         return new CustomItem(
                 SkullItem.fromBase64(SkullTextures.BUCKET_ORANGE),
-                ThemeUtils.GUI_HEAD + "Pour content",
+                ThemeUtils.GUI_HEAD + "浇筑",
                 "",
-                ThemeUtils.PASSIVE + "Pours the first metal into the",
-                ThemeUtils.PASSIVE + "cast. After cooling, outputs the",
-                ThemeUtils.PASSIVE + "final product."
+                ThemeUtils.PASSIVE + "将首个金属浇筑为铸件",
+                ThemeUtils.PASSIVE + "待冷却后产出最终产物."
         );
     }
 
     public static CustomItem menuCraftWorkbench() {
         return new CustomItem(
                 Material.FLETCHING_TABLE,
-                ThemeUtils.GUI_HEAD + "Craft",
+                ThemeUtils.GUI_HEAD + "合成",
                 "",
-                ThemeUtils.PASSIVE + "Let's get crafting!"
+                ThemeUtils.PASSIVE + "让我们合成点东西吧!"
         );
     }
 
@@ -202,36 +201,36 @@ public final class GUIItems {
                 Material.SMITHING_TABLE,
                 ThemeUtils.GUI_HEAD + "Form Tool",
                 "",
-                ThemeUtils.PASSIVE + "Forms a tool from the three given",
-                ThemeUtils.PASSIVE + "parts (Rod, Binding and Head/Blade)"
+                ThemeUtils.PASSIVE + "使用给定的三个部件 (手柄, 绑定结, 头/刀刃)",
+                ThemeUtils.PASSIVE + "合成工具"
         );
     }
 
     public static CustomItem menuCraftRepair() {
         return new CustomItem(
                 Material.CARTOGRAPHY_TABLE,
-                ThemeUtils.GUI_HEAD + "Repair",
+                ThemeUtils.GUI_HEAD + "修复工具",
                 "",
-                ThemeUtils.PASSIVE + "Repairs the tool in the first slot",
-                ThemeUtils.PASSIVE + "using the repair kit in the second."
+                ThemeUtils.PASSIVE + "使用修复工具包快速修复",
+                ThemeUtils.PASSIVE + "放在第一格中的工具."
         );
     }
 
     public static CustomItem menuCraftMod() {
         return new CustomItem(
                 Material.GRINDSTONE,
-                ThemeUtils.GUI_HEAD + "Apply Modification",
+                ThemeUtils.GUI_HEAD + "应用改装部件",
                 "",
-                ThemeUtils.PASSIVE + "Apply the modification to the tool."
+                ThemeUtils.PASSIVE + "应用改装部件到这个工具上."
         );
     }
 
     public static CustomItem menuCraftSwap() {
         return new CustomItem(
                 Material.SCAFFOLDING,
-                ThemeUtils.GUI_HEAD + "Swap out part",
+                ThemeUtils.GUI_HEAD + "更换部件",
                 "",
-                ThemeUtils.PASSIVE + "Swap tool parts."
+                ThemeUtils.PASSIVE + "更换工具部件."
         );
     }
 

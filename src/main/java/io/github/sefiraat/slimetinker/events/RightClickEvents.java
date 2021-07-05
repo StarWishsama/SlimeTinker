@@ -39,7 +39,7 @@ public final class RightClickEvents {
             Long cd = c.get(key, PersistentDataType.LONG);
             assert cd != null;
             if (cd > time) {
-                p.sendMessage(ThemeUtils.WARNING + "NoClip is on cooldown!");
+                p.sendMessage(ThemeUtils.WARNING + "NoClip 冷却中!");
                 return;
             }
         }
@@ -52,7 +52,7 @@ public final class RightClickEvents {
             p.teleport(location);
             p.getWorld().playEffect(friend.getPlayer().getLocation(), Effect.ENDEREYE_LAUNCH, 10);
         } else {
-            p.sendMessage(ThemeUtils.WARNING + "Couldn't teleport! Try again.");
+            p.sendMessage(ThemeUtils.WARNING + "无法传送! 请重试.");
             return;
         }
 

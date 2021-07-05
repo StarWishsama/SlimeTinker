@@ -21,14 +21,16 @@ public class CMTrait {
     private ComponentMaterial parentCM;
 
     private final String traitName;
+    private final String traitOriginalName;
     private final String[] lore;
     private final String addedBy;
     private final SlimefunItemStack partType;
     private SlimefunItemStack itemStack;
     private SlimefunItem item;
 
-    public CMTrait(SlimefunItemStack partType, String addedBy, String traitName, String... lore) {
+    public CMTrait(SlimefunItemStack partType, String addedBy, String traitName, String traitOriginalName, String... lore) {
         this.traitName = traitName;
+        this.traitOriginalName = traitOriginalName;
         this.addedBy = addedBy;
         this.partType = partType;
         this.lore = lore;

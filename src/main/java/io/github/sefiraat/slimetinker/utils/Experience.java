@@ -71,7 +71,7 @@ public final class Experience {
             modSlots++;
             expRequired = (expRequired * EXP_GROWTH);
             promoteMaterial(itemStack, level, player);
-            player.sendMessage(ThemeUtils.SUCCESS + "Your Tinker's tool has leveled up! +1 Modifier Slot");
+            player.sendMessage(ThemeUtils.SUCCESS + " 你的匠魂工具升级了! +1 改装部件槽");
 
             silverChecks(matPropertyHead, im, itemStack, player);
 
@@ -111,13 +111,13 @@ public final class Experience {
     }
 
     public static String getLoreExp(PersistentDataContainer c) {
-        return ThemeUtils.ITEM_TOOL + "Level: " +
+        return ThemeUtils.ITEM_TOOL + "等级: " +
                 ChatColor.WHITE + Experience.getToolLevel(c) +
                 ThemeUtils.PASSIVE + " (" + Experience.getToolExp(c) + " / " + Experience.getToolRequiredExp(c) + ")";
     }
 
     public static String getLoreModSlots(PersistentDataContainer c) {
-        return ThemeUtils.ITEM_TOOL + "Modifier Slots: " +
+        return ThemeUtils.ITEM_TOOL + "改装部件: " +
                 ChatColor.WHITE + Experience.getToolModifierSlots(c);
     }
 
@@ -132,7 +132,7 @@ public final class Experience {
         if (Tools.getToolGrowthMap().get(toolType).containsKey(level)) {
             itemStack.setType(Tools.getToolGrowthMap().get(toolType).get(level));
             ItemUtils.repairTool(itemStack);
-            player.sendMessage(ThemeUtils.SUCCESS + "Your tool has been promoted!");
+            player.sendMessage(ThemeUtils.SUCCESS + "成功升级工具!");
             ItemUtils.repairTool(itemStack);
         }
 
@@ -166,7 +166,7 @@ public final class Experience {
                 }
                 count++;
             }
-            player.sendMessage(ThemeUtils.SUCCESS + "It also gained [" + count + "] random enchantment(s)! Hope it's good :>");
+            player.sendMessage(ThemeUtils.SUCCESS + "它收集到了 [" + count + "] 个随机的附魔! 希望你能喜欢 :>");
         }
     }
 

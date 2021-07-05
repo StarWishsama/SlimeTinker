@@ -92,9 +92,9 @@ public final class ItemUtils {
 
         // General Material information
         lore.add(ThemeUtils.getLine());
-        lore.add(ThemeUtils.CLICK_INFO + "H: " + formatMaterialName(matHead));
-        lore.add(ThemeUtils.CLICK_INFO + "B: " + formatMaterialName(matBind));
-        lore.add(ThemeUtils.CLICK_INFO + "R: " + formatMaterialName(matRod));
+        lore.add(ThemeUtils.CLICK_INFO + "头: " + formatMaterialName(matHead));
+        lore.add(ThemeUtils.CLICK_INFO + "结: " + formatMaterialName(matBind));
+        lore.add(ThemeUtils.CLICK_INFO + "柄: " + formatMaterialName(matRod));
         lore.add(ThemeUtils.getLine());
 
         // Material properties
@@ -117,9 +117,9 @@ public final class ItemUtils {
             Mod mod = Modifications.getMODIFICATION_DEFINITIONS().get(entry.getKey());
             if (mod.getRequirementMap().containsKey(level + 1)) {
                 String amountRequired = String.valueOf(mod.getRequirementMap().get(level + 1));
-                lore.add(ThemeUtils.CLICK_INFO + ThemeUtils.toTitleCase(entry.getKey()) + " Level " + entry.getValue() + ThemeUtils.PASSIVE + " - (" + mapAmounts.get(entry.getKey()) + "/" + amountRequired + ")");
+                lore.add(ThemeUtils.CLICK_INFO + ThemeUtils.toTitleCase(entry.getKey()) + " 级 " + entry.getValue() + ThemeUtils.PASSIVE + " - (" + mapAmounts.get(entry.getKey()) + "/" + amountRequired + ")");
             } else {
-                lore.add(ThemeUtils.CLICK_INFO + ThemeUtils.toTitleCase(entry.getKey()) + " Level " + entry.getValue() + ThemeUtils.PASSIVE + " - (MAX)");
+                lore.add(ThemeUtils.CLICK_INFO + ThemeUtils.toTitleCase(entry.getKey()) + " 级 " + entry.getValue() + ThemeUtils.PASSIVE + " - (最高等级)");
             }
         }
         if (!mapLevels.isEmpty()) {
