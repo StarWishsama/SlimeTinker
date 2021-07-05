@@ -284,15 +284,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "可塑材料",
                                                 "Malleable",
-                                                "Deal 50% less damage but gain luck."
+                                                "减少 50% 的伤害, 但会获得好运"
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "午餐罐头",
                                                 "Can",
-                                                "Your hunger just fades away"
+                                                "横扫饥饿"
                                         )
                                 )
                         ));
@@ -319,15 +321,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "恩惠",
                                                 "Graceful",
-                                                "DOLPHIN POWERS, ACTIVATE!"
+                                                "海豚力量, 激活!"
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "薄如云雾",
                                                 "Super Lightweight",
-                                                "Makes you lighter than air when not sneaking."
+                                                "在非潜行状态下让你浮起来."
                                         )
                                 )
                         ));
@@ -354,17 +358,19 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "易燃材料",
                                                 "Flammable",
-                                                "Has a (Tool level x 5)% chance to",
-                                                "set your enemies ablaze."
+                                                "有 (工具等级 * 5)% 的概率",
+                                                "点燃你击中的敌人."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "磁性",
                                                 "Magnetesium",
-                                                "Random items are drawn to you from",
-                                                "within a 5 block range"
+                                                "在五个方块的范围内",
+                                                "会吸引随机物品到你身上"
                                         )
                                 )
                         ));
@@ -419,6 +425,7 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "不锈钢",
                                                 "Stainless",
                                                 "The tool/weapon repels blood."
                                         ),
@@ -426,9 +433,10 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "轻量",
                                                 "Lightweight",
-                                                "Random items are drawn to you from",
-                                                "within a 5 block range"
+                                                "在五个方块的范围内",
+                                                "会吸引随机物品到你身上"
                                         )
                                 )
                         ));
@@ -459,16 +467,18 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "吸血鬼",
                                                 "Vampirism",
-                                                "Chance to heal by damage given.",
-                                                "Damage dealt varies by time of day."
+                                                "有几率在攻击时恢复生命值.",
+                                                "恢复值随时间变化."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "夜行者",
                                                 "Nightstalker",
-                                                "Gives night vision."
+                                                "给予夜视效果."
                                         )
                                 )
                         ));
@@ -498,16 +508,18 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "珍贵",
                                                 "Durable",
-                                                "Ignores being broken but damage 50%,",
-                                                "mining will be slower and 0 exp."
+                                                "无法被破坏但是伤害会被减半,",
+                                                "挖矿速度减慢并且无法获取经验."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "轻松修复",
                                                 "Easy Fix",
-                                                "Only 1 kit is needed to fully repair."
+                                                "只需要使用一个修复包就能完全修复."
                                         )
                                 )
                         ));
@@ -537,15 +549,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "火焰抗性",
                                                 "Resistance",
-                                                "Gives fire resistance while held."
+                                                "在手持时给予火焰保护."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
                                                 "Ingheights",
-                                                "Something is wrong with this tool."
+                                                "Ingheights",
+                                                "这工具肯定出了什么问题."
                                         )
                                 )
                         ));
@@ -575,16 +589,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "锋利 2",
                                                 "Sharp 2",
-                                                "Gives increased damage, stacks with",
-                                                "mods and other properties."
+                                                "增强你的伤害, 可与其他改装部件和属性叠加."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "易碎",
                                                 "Brittle",
-                                                "Durability loss is doubled."
+                                                "耐久度将会双倍减少."
                                         )
                                 )
                         ));
@@ -616,16 +631,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "锋利 2",
                                                 "Sharp 2",
-                                                "Knocks back anything hit with a chance",
-                                                "to stun."
+                                                "有几率击退击中的实体."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "沉重",
                                                 "Heavy",
-                                                "Mines in a 3x3 area."
+                                                "一次可以挖掘 3x3 区域内的方块."
                                         )
                                 )
                         ));
@@ -657,13 +673,15 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
-                                                "Flaming Hot",
-                                                "Smelts broken blocks when possible."
+                                                "",
+                                                "烈火",
+                                                "当挖掘方块可被冶炼时自动冶炼."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "滚烫不已",
                                                 "Too Hot to Handle",
                                                 "?"
                                         )
@@ -695,16 +713,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "隐蔽",
                                                 "Hidden",
-                                                "Grants invisibility, breaks instantly."
+                                                "给予隐身效果, 快速破坏方块."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "融合",
                                                 "Fused",
-                                                "Tool cannot be dropped either by the",
-                                                "player or on death."
+                                                "工具无法被丢弃, 在死后也不会掉落."
                                         )
                                 )
                         ));
@@ -734,16 +753,18 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "快速",
                                                 "Fast",
-                                                "Move speed increased and haste applied.",
-                                                "Stacks with modifiers."
+                                                "加快移动速度, 给予急迫效果.",
+                                                "可与其他增幅效果叠加."
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "弹簧",
                                                 "Springs",
-                                                "Makes you jump higher."
+                                                "让你跳得更高."
                                         )
                                 )
                         ));
@@ -773,15 +794,17 @@ public final class CMCore {
                                         new CMTrait(
                                                 CMTraits.PROP_HEAD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "坚硬",
                                                 "Stiff",
-                                                "Damage +50% but makes you unlucky"
+                                                "+50% 伤害, 但会使你不幸"
                                         ),
                                         null,
                                         new CMTrait(
                                                 CMTraits.PROP_ROD,
                                                 SupportedPluginsManager.CORE_NOTE,
+                                                "氧化",
                                                 "Oxygenated",
-                                                "Gives water breathing while held."
+                                                "在手持时给予你水下呼吸效果."
                                         )
                                 )
                         ));
